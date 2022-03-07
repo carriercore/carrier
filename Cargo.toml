@@ -1,0 +1,9 @@
+[workspace]
+members = ["crates/*"]
+exclude = ["crates/starter"]
+[profile.dev]
+#panic = "abort"
+
+[profile.release]
+#panic = "abort"
+lto = true
